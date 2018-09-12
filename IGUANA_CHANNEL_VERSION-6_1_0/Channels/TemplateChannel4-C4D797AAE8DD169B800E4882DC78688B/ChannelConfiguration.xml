@@ -1,0 +1,19 @@
+<channel
+   name="TemplateChannel4"
+   guid="C4D797AAE8DD169B800E4882DC78688B"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="TemplateChannel4-To-9CQAaMH3URuV89"
+      commit_id="84e68b841fa4a7facbad3e42b80bc3933cf14fd1"
+      commit_comment="ok">
+      <dequeue_list>
+         <dequeue
+            source_name="TemplateChannel1"
+            dequeue_guid="9AE1619FE482E4197E60F5B56F92D7FC"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
